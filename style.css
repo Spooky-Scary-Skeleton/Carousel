@@ -1,0 +1,75 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 72px;
+}
+
+/* imgs and buttons */
+
+.container {
+  text-align: center;
+}
+
+button {
+  height: 70px;
+  width: 70px;
+  margin: 30px;
+
+  display: inline-block;
+  vertical-align: middle;
+
+  text-align: center;
+  font-size: 40px;
+  color: black;
+
+  border:none;
+  border-radius: 100%;
+  outline:none;
+  cursor: pointer;
+
+  background-color: peachpuff;
+}
+
+.left-button{
+  padding-right: 10px;
+}
+
+.right-button{
+  padding-left: 10px;
+}
+
+
+.carousel-imgs {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Dot Navigator */
+.dot-navigator {
+  text-align: center;
+  margin: 20px;
+}
+
+/* .dot {
+  height: 20px;
+  width: 20px;
+  margin: 0px 10px;
+
+  background-color: peachpuff;
+  border-radius: 100%;
+  display: inline-block;
+  cursor: pointer;
+
+} */
+
+.bottom-button {
+  width: 20px;
+  height: 20px;
+}
